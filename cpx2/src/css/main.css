@@ -232,6 +232,22 @@ main {
 }
 
 @media screen and (max-width: 880px) {
+    
+    .section__photos{
+        flex-direction: column-reverse;
+    }
+
+    .list__photos{
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .left_title h2{
+        font-size: 1rem;
+    
+    }
+
     .right {
         display: none;
     }
